@@ -2,7 +2,7 @@ import streamlit as st
 from snowflake.snowpark.functions import col
 import os
 import requests  
-import pandas pd
+import pandas as pd
 #session =get_active_session()
 cnx=st.connection("snowflake")
 session=cnx.session()

@@ -5,10 +5,10 @@ import os
 cnx=st.connection("snowflake")
 session=cnx.session()
 
-st.title(f" My Parents New Healthy Diner ")
+st.title(f" :cup_with_straw: Customise Your Smoothie! :cup_with_straw: ")
 
 st.write(
-  """Breakfast Menu
+  """Choose the fruits you want in your custom smoothie
   """
 )
 
